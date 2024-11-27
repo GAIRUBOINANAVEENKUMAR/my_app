@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- App Logo ImageView -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        />
+
+    <!-- Appointment TextView -->
+    <TextView
+        android:id="@+id/bookAppointmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE WAY TO DOCTOR"
+        android:textColor="#F6F0F0"
+        android:textSize="27sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appLogo"
+        android:paddingTop="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/title2" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:backgroundTint="#A463F4"
+        android:textColor="#040000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

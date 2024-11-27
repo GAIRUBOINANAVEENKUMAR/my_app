@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="6dp">
+
+
+                <TextView
+                    android:id="@+id/servicesHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Services"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Service 1 -->
+                <TextView
+                    android:id="@+id/onlineAppointmentsHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online Doctor Appointments"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/onlineAppointmentsDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book appointments with top doctors and healthcare professionals from the comfort of your home. Our system provides real-time availability and instant booking."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <!-- Service 2 -->
+                <TextView
+                    android:id="@+id/telemedicineHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telemedicine Consultations"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/telemedicineDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get in touch with medical professionals through secure video calls and chats. Telemedicine services ensure you receive expert advice, no matter where you are."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <!-- Service 3 -->
+                <TextView
+                    android:id="@+id/healthMonitoringHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Monitoring"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/healthMonitoringDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track your health metrics such as blood pressure, heart rate, and glucose levels using our integrated health monitoring system. Stay informed and share results with your doctor."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <!-- Service 4 -->
+                <TextView
+                    android:id="@+id/medicalRecordsHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical Records Management"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/medicalRecordsDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Safely store and access your medical history, prescriptions, and lab results online. Our secure platform ensures your records are always available for you and your healthcare provider."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <!-- Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/circular_image"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+             />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/yourName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gairuboina Naveen Kumar"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/title2"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our profiles"
+            android:textSize="8dp"
+            android:textColor="@color/teal_700"
+            />
+
+        <!-- Social Media Icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <!-- Instagram -->
+            <ImageView
+                android:id="@+id/linkedinIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/linkedin"
+                android:layout_margin="8dp"
+                />
+
+            <!-- Facebook -->
+            <ImageView
+                android:id="@+id/githubIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/github"
+                android:layout_margin="8dp"
+                  />
+
+            <!-- Gmail -->
+            <ImageView
+                android:id="@+id/instaIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/instagram"
+                android:layout_margin="8dp"
+             />
+        </LinearLayout>
+
+
+    </LinearLayout>
+ </ScrollView>
+    <ImageView
+        android:id="@+id/homeicon"
+        android:layout_marginTop="10dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="290dp"
+        android:src="@drawable/home" />
+</RelativeLayout>

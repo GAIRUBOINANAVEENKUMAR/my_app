@@ -1,0 +1,196 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:background="#9E55F8"
+            android:padding="16dp">
+
+
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/title"
+                android:text="Select Your Language"
+                android:textColorHighlight="@color/black"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/homeicon"
+                android:layout_marginTop="10dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="290dp"
+                android:src="@drawable/home" />
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:columnCount="2"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:rowCount="2">
+
+            <!-- Language Buttons with text in their respective languages -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="हिन्दी"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Español"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Français"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Deutsch"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="中文"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="日本語"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Русский"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Português"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="العربية"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="한국어"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Italiano"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="বাংলা"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="اردو"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Svenska"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Polski"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Türkçe"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nederlands"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Ελληνικά"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="தமிழ்"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp" />
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

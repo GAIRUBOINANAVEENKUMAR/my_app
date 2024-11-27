@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "425726529266",
+    "firebase_url": "https://myfirebasedb-4a7fb-default-rtdb.firebaseio.com",
+    "project_id": "myfirebasedb-4a7fb",
+    "storage_bucket": "myfirebasedb-4a7fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425726529266:android:12018d6a9631922aa08a6b",
+        "android_client_info": {
+          "package_name": "com.example.medimeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425726529266-9b2t7u7acu0h2trbo120f2b6t3hgqp45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyiEyxExWBVgD0fTGrqDaILqnOmsl5HSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425726529266-9b2t7u7acu0h2trbo120f2b6t3hgqp45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425726529266:android:7f88c8f1fa91ccc8a08a6b",
+        "android_client_info": {
+          "package_name": "com.example.myfirebasedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425726529266-9b2t7u7acu0h2trbo120f2b6t3hgqp45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyiEyxExWBVgD0fTGrqDaILqnOmsl5HSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425726529266-9b2t7u7acu0h2trbo120f2b6t3hgqp45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

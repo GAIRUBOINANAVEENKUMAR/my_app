@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Insurance Policy 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mediclaim Policy"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Critical Illness Cover"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Accident Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Senior Citizen Health Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Family Floater Health Plan"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Group Health Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disease-Specific Health Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maternity Health Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top-Up Health Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+            <!-- Insurance Policy 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvPolicyName10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surgical Cash Insurance"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnApply10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
